@@ -47,7 +47,7 @@ header {
   background-image: url("https://images.unsplash.com/photo-1706865297981-59e092483dc7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
+  background-position: center;
   color: beige;
   margin: 0;
   padding: 0;
@@ -146,16 +146,8 @@ li {
 }
 
 nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   padding: 0;
   margin: 0;
-  gap: 0.5rem;
-}
-
-nav li {
-  display: inline;
 }
 
 @media (max-width: 768px) {
