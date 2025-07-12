@@ -1,0 +1,138 @@
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+img {
+  height: 33.125rem;
+  width: 24.25rem;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Tangerine", Times New Roman;
+  padding-top: 1.25rem;
+  margin: 0;
+  font-size: 3.75rem;
+  padding-bottom: 0;
+}
+
+.toptext {
+  font-style: italic;
+  text-align: center;
+  font-family: "Lusitana";
+  font-size: 0.9375rem;
+  margin: 0;
+  padding: 0 0 0.1875rem 0;
+}
+
+body {
+  background-color: #dfcbbe;
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman";
+}
+
+header {
+  height: 16.875rem;
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1628667473341-4db29a839e5c?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNvenklMjBtb3JuaW5nJTIwdmlld3xlbnwwfHwwfHx8MA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  color: beige;
+}
+
+main {
+  padding: 0.3125rem 0.9375rem;
+}
+
+footer {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #f3e8dc;
+  border-radius: 10px;
+}
+
+nav a {
+  color: beige;
+  text-decoration: none;
+  text-shadow: 0.0625rem 0.0625rem 0.125rem #000;
+}
+
+h2 {
+  font-family: "Lusitana";
+  font-size: 1.875rem;
+  color: #5e3021;
+  margin: 0.3125rem;
+  text-decoration: underline;
+}
+
+#home {
+  font-style: italic;
+  font-family: Times New Roman;
+  font-size: 0.9375rem;
+}
+
+#menu {
+  border: solid 0.1875rem #5e3021;
+  padding-left: 0.625rem;
+  margin: 1.875rem 0 3.125rem 0;
+  background-image: url('https://images.unsplash.com/photo-1567370515955-fa2f0c5330e8?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0.1875rem 0.25rem #000;
+}
+
+h1, header, .toptext, h2 {
+  text-shadow: 0.0625rem 0.0625rem 0.0625rem #000;
+}
+
+.menuheader {
+  font-size: 1.25rem;
+  color: beige;
+  text-shadow: 0.0625rem 0.0625rem 0.0625rem #000;
+}
+
+li {
+  color: #fff;
+  text-shadow: 0.0625rem 0.0625rem 0.0625rem #000;
+}
+
+#reviews {
+  background-color: #f3e8dc;
+  padding: 0.625rem;
+  margin: 1.875rem 0;
+  border-radius: 0.625rem;
+  box-shadow: 0 0.1875rem 0.25rem #000;
+}
+
+.review {
+  margin-bottom: 0.9375rem;
+  padding: 0.625rem;
+  border-left: 0.25rem solid #5e3021;
+  background-color: #fffaf5;
+  font-family: "Lusitana", serif;
+  font-style: italic;
+}
+
+.review p {
+  margin: 0.3125rem 0;
+  color: #3e2a1a;
+}
+
+#location {
+  font-size: 0.875rem;
+  margin-top: 0;
+}
+
+#contact {
+  font-size: 0.875rem;
+}
+
+.smaller {
+  font-size: 1.5rem;
+}
