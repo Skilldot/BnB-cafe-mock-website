@@ -29,7 +29,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0;
+  padding: 0.5rem;
   margin: o;
 }
 
@@ -45,7 +45,7 @@ h1 {
   font-style: italic;
   text-align: center;
   font-family: "Lusitana", serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 0;
   text-shadow: 0.0625rem 0.0625rem 0.0625rem #000;
 }
@@ -56,7 +56,7 @@ nav {
 }
 
 nav ul {
-  list-style: disc;
+  list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
