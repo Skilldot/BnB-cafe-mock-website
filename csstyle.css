@@ -53,6 +53,7 @@ h1 {
 nav {
   display: flex;
   justify-content: center;
+}
 
 nav ul {
   list-style: disc;
